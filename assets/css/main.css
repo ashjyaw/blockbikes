@@ -1285,9 +1285,15 @@ input, select, textarea {
 			#header > :first-child:before {
 				display: none;
 			}
-
+	
+		img{
+			max-width: 100%;
+			max-height: auto;
+			}
 		#header .logo {
-			/*width: 25rem;
+			height: auto; 
+max-width: 100%;
+			/*width: 25autorem;
 			height: 15.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
